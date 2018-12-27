@@ -1,0 +1,31 @@
+.carusel__text {
+  position: absolute;
+  top: 50%;
+  left: 27%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 0 30px 0 30px;
+}
+
+.carusel__text-1 {
+  font-size: 60px;
+  font-weight: 300;
+  text-align: right;
+  line-height: 53px;
+  margin: auto;
+}
+
+.carusel__text-2 {
+  font-size: 138px;
+  font-weight: 900;
+}

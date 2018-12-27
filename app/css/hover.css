@@ -1,0 +1,93 @@
+.menu__index a:hover {
+  background-color: #74c7d5;
+  padding: 35px 25px 10px 25px;
+  -webkit-border-radius: 0 0 20px 20px;
+          border-radius: 0 0 20px 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu__services a:hover {
+  background-color: #df5c64;
+  padding: 35px 25px 10px 25px;
+  -webkit-border-radius: 0 0 20px 20px;
+          border-radius: 0 0 20px 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu__about a:hover {
+  background-color: #91778e;
+  padding: 35px 25px 10px 25px;
+  -webkit-border-radius: 0 0 20px 20px;
+          border-radius: 0 0 20px 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu__work a:hover {
+  background-color: #a1ca6c;
+  padding: 35px 25px 10px 25px;
+  -webkit-border-radius: 0 0 20px 20px;
+          border-radius: 0 0 20px 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about__block:hover .about__circuit {
+  border: 5px solid #df5c64;
+  -webkit-border-radius: 80px;
+          border-radius: 80px;
+  color: #df5c64;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about__block:hover .about__position {
+  color: #df5c64;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about__block:hover .about__block-servic {
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about__meet {
+  height: 50px;
+  width: 276px;
+  margin: auto;
+  background-color: #a1ca6c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 61px auto;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.about__meet span {
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__meet::after {
+  content: '';
+  position: absolute;
+  left: 49%;
+  bottom: 255px;
+  border: 20px solid transparent;
+  border-top: 20px solid #a1ca6c;
+}
+
+.galerey__img:hover .galerey__img-hover {
+  display: block;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
