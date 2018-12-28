@@ -192,3 +192,35 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+.about__meet {
+  height: 50px;
+  width: 276px;
+  margin: auto;
+  background-color: #a1ca6c;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 61px auto;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  position: relative;
+}
+
+.about__meet span {
+  margin: auto;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__meet::after {
+  content: '';
+  position: absolute;
+  left: 45%;
+  top: 95%;
+  border: 20px solid transparent;
+  border-top: 20px solid #a1ca6c;
+}

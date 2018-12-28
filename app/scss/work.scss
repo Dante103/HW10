@@ -40,9 +40,13 @@
 
     &-cat {
 
-      & button {
+      & a {
+        font-size: 16px;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 30px;
 
-        background-color: none !important;
       }
     }
   }
